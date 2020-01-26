@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('communications.db')
+conn = sqlite3.connect('packets_log.db')
 # TODO : voir detect_types=sqlite3.PARSE_DECLTYPES|sqlite3.PARSE_COLNAMES)
 # pour recuperer date_com au format date
 c = conn.cursor()
